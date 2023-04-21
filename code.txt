@@ -1,0 +1,48 @@
+Data: 000601000106
+
+Data: 0007a01aff0042
+
+Data: 0005f007f2
+
+During Image capture
+
+host: 000601000106
+cam: ack
+cam: 00 04 00 04
+host: ack
+host: 0007a01aff0042
+cam: ack
+cam    02 00 00 00 45 00 00 39 a0 ca 40 00 80 06 00 00   
+       7f 00 00 01 7f 00 00 01 21 34 f7 9b 07 78 82 11   
+       6c d2 01 0e 50 18 27 f7 ba 1f 00 00 00 11 00 00   
+       00 00 00 06 40 04 b0 00 1d 4c 00 00 b2
+host: ack
+tcp image segments starts comming            
+
+
+During live image	(in live stream 0007a01aff0042 is send in repeat)
+
+host: 0005a701a3
+cam: ack
+cam: 00 04 00 04
+host: ack
+host: 0007a01aff0042
+cam: ack
+cam    02 00 00 00 45 00 00 39 45 a2 40 00 80 06 00 00   
+       7f 00 00 01 7f 00 00 01 21 34 f7 9b 07 78 82 11   
+       6c d2 01 0e 50 18 27 f7 ba 1f 00 00 00 11 00 00   
+       00 00 00 06 40 04 b0 00 1d 4c 00 00 b2     
+host: ack
+tcp image segments starts comming
+
+***repeating***
+
+host: 0007a01aff0042
+cam: ack
+cam    02 00 00 00 45 00 00 39 45 a2 40 00 80 06 00 00   
+       7f 00 00 01 7f 00 00 01 21 34 f7 9b 07 78 82 11   
+       6c d2 01 0e 50 18 27 f7 ba 1f 00 00 00 11 00 00   
+       00 00 00 06 40 04 b0 00 1d 4c 00 00 b2     
+host: ack
+tcp image segments starts comming
+       
