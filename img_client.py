@@ -16,6 +16,7 @@ image_data = b''
 chunk_size = 5120
 while True:
     chunk = s.recv(chunk_size)
+    print(len(chunk))
     if not chunk:
         break
     image_data += chunk
