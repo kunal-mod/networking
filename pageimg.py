@@ -49,5 +49,5 @@ with open('pageimg.bin', 'rb') as f:
 width = 1600
 height = 1200
 image = Image.frombytes('L', (width, height), pixel_data)
-image.save('pageimg3.png')
+image.save('pageimg3.bmp')
 image.show()

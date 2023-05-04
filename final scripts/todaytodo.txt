@@ -1,0 +1,17 @@
+todos
+1. test the io
+2. test the exposure setting and caputer image
+3. wath is the success and failure code?
+
+scripts to run:
+
+Script 1:
+1. setting page
+2. setting exposure
+3. capture image and store it.
+
+Scritp 2:
+1. querry input 1 with nominal low and high
+2. set output 2 to high
+3. set 3high 2low OK
+4. set 4high 2 low NOK
